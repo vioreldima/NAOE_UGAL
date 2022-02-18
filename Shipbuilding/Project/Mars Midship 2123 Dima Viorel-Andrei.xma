@@ -1,0 +1,1222 @@
+<?xml version="1.0" standalone="yes"?>
+<Ship>
+  <FileVersion Version="2.81" />
+  <Bsd>
+    <ShipIdentification Name="Ferostaal 8000" Lpp="110.4" Builder="NA" HullNumber="NA" RegisterNumber="NA" LengthOverall="116.9" LengthBePerpendiculars="0" Description="100 A5  E  Chemical Tanker Type 2 / Oil Tanker  ESP  COLL&#xD;&#xA;MC  E AUT  RP3 50%">
+      <DatabaseHistory CreatedBy="VIO-PC\VIO" CreatedCompagny="" CreatedDate="01/16/2022" LastModifiedBy="VIO-PC\VIO" ModifiedCompagny="" ModifiedDate="01/24/2022 18:07:51" />
+    </ShipIdentification>
+    <MainParticulars Block="0.782" SvSpd="15" RuLen="108.84" BrMou="18" DStrD="9.4" DTopC="9.4" DBhD="9.4" DphFbdDek="9.4" UserDBhD="false" GrbXs="0" BiKel="true" DeadWeight="0" LdLinLen="107.71" FEndLoadLinFromFP="0" StandardFrameSpacing="600" BottomZone="0" DeckZone="1" SailingFactor="0.85" DesignFatigLife="25" AdditionalNotFATxx="false" AftRulLengFr="0" AftPKBkhdFr0="3" CollisBkheadFr0="105.8" AftPdicularFr0="0" AftMostOfCargoFr0="27.4" WaterplaneArea="0" HorizonPlaneDeckArea="273" WaterplaneAreaLine="200" DistanceWaterLineToDeck="5.25" PolarClass="" BulkNotation="" IcebreakerNotation="" GazTanksType="0" NavigationNotation="0" OnsiteNotation="0" FreeBoardType="1" ServiceNotationId="ChemicalTanker" ECFPNotation="0" OPTServiceFeature="false" />
+    <DraughtLoadingConditions>
+      <Draught DraughtID="NR646_FullLoad" UserDraughtValue="7.4" UserBlockCoefficient="0" IsUserBlockCoefficient="false" Displacement="11623" DraughtType="NR646_FullLoad" IsUserValueWaterplaneCoeff="true" UserValueWaterplaneCoeff="0.91" WaterplaneArea="0" />
+      <Draught DraughtID="NR646_Ballast" UserDraughtValue="4.2" UserBlockCoefficient="0" IsUserBlockCoefficient="false" Displacement="5990" DraughtType="NR646_Ballast" IsUserValueWaterplaneCoeff="true" UserValueWaterplaneCoeff="0.794" WaterplaneArea="0" />
+      <Draught DraughtID="NR646_PartialLoad" UserDraughtValue="0" UserBlockCoefficient="0" IsUserBlockCoefficient="false" Displacement="6370" DraughtType="NR646_PartialLoad" IsUserValueWaterplaneCoeff="true" UserValueWaterplaneCoeff="0.8" WaterplaneArea="0" />
+      <LC LoadingConditionID="Bvss_FullLoadCondition" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Bvss_BallastCondition" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Bvss_DredgingCondition" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Cont_FullLoadCondition" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Cont_BallastCondition" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Cont_FullLoadConditionFatigue" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Hcsr_BulkCarrier_FullLoad_HomogeneousLightCargo" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Hcsr_BulkCarrier_FullLoad_HomogeneousHeavyCargo" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Hcsr_BulkCarrier_FullLoad_AlternateLightCargo" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Hcsr_BulkCarrier_FullLoad_AlternateHeavyCargo" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Hcsr_BulkCarrier_FullLoad_SteelCoilLoading" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Hcsr_BulkCarrier_HeavyBallastCondition" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Hcsr_BulkCarrier_NormalBallastCondition" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Hcsr_OilTanker_FullLoadCondition" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Hcsr_OilTanker_BallastCondition" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Hcsr_OilTanker_PartialLoadCondition" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Hcsr_OilTanker_OptionalLoadCondition" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Off_FullLoadCondition" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Off_BallastCondition" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Off_MaxDraughtCondition" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="Off_MinDraughtCondition" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="NR646_FullLoad_Standard" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" FatPercent="50" />
+      <LC LoadingConditionID="NR646_FullLoad_OilTanker" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" FatPercent="50" />
+      <LC LoadingConditionID="NR646_PartialLoad_Standard" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="NR646_PartialLoad_OilTanker" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="NR646_FullLoad_HomogeneousLightBulkCargo" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" FatPercent="50" />
+      <LC LoadingConditionID="NR646_FullLoad_HomogeneousHeavyBulkCargo" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" FatPercent="50" />
+      <LC LoadingConditionID="NR646_FullLoad_AlternateLightBulkCargo" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" FatPercent="50" />
+      <LC LoadingConditionID="NR646_FullLoad_AlternateHeavyBulkCargo" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" FatPercent="50" />
+      <LC LoadingConditionID="NR646_HeavyBallast_BulkCarrier" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" />
+      <LC LoadingConditionID="NR646_Ballast_Standard" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" FatPercent="50" />
+      <LC LoadingConditionID="NR646_Ballast_BulkOreOil" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" FatPercent="50" />
+      <LC LoadingConditionID="NR646_FullLoad_SteelCoil" UseDefaultGM="true" UseDefaultRGyr="true" UserGM="0" UserRGyr="0" FatPercent="50" />
+    </DraughtLoadingConditions>
+    <FrameTables FirstFrameNumber="-3" IsFrameTableReverse="false">
+      <grpfr_0 Spacing="0.6" StartFrameNumber="-3" EndFrameNumber="20">
+        <Frame_-3 UseDefaultName="true" UseDefaultType="false" FrameNumber="-3" Name="" XfromFrame0="-1.8" XfromAP="-1.8" XfromAE="-1.8" FrameTypeLabel="Bulkhead" />
+        <Frame_-2 UseDefaultName="true" UseDefaultType="true" FrameNumber="-2" Name="" XfromFrame0="-1.2" XfromAP="-1.2" XfromAE="-1.2" FrameTypeLabel="Secondary members" />
+        <Frame_-1 UseDefaultName="true" UseDefaultType="true" FrameNumber="-1" Name="" XfromFrame0="-0.6" XfromAP="-0.6" XfromAE="-0.6" FrameTypeLabel="Secondary members" />
+        <Frame_0 UseDefaultName="true" UseDefaultType="true" FrameNumber="0" Name="" XfromFrame0="0" XfromAP="0" XfromAE="0" FrameTypeLabel="Secondary members" />
+        <Frame_1 UseDefaultName="true" UseDefaultType="false" FrameNumber="1" Name="" XfromFrame0="0.6" XfromAP="0.6" XfromAE="0.6" FrameTypeLabel="Primary members" />
+        <Frame_2 UseDefaultName="true" UseDefaultType="true" FrameNumber="2" Name="" XfromFrame0="1.2" XfromAP="1.2" XfromAE="1.2" FrameTypeLabel="Secondary members" />
+        <Frame_3 UseDefaultName="true" UseDefaultType="true" FrameNumber="3" Name="" XfromFrame0="1.8" XfromAP="1.8" XfromAE="1.8" FrameTypeLabel="Secondary members" />
+        <Frame_4 UseDefaultName="true" UseDefaultType="true" FrameNumber="4" Name="" XfromFrame0="2.4" XfromAP="2.4" XfromAE="2.4" FrameTypeLabel="Secondary members" />
+        <Frame_5 UseDefaultName="true" UseDefaultType="false" FrameNumber="5" Name="" XfromFrame0="3" XfromAP="3" XfromAE="3" FrameTypeLabel="Bulkhead" />
+        <Frame_6 UseDefaultName="true" UseDefaultType="true" FrameNumber="6" Name="" XfromFrame0="3.6" XfromAP="3.6" XfromAE="3.6" FrameTypeLabel="Secondary members" />
+        <Frame_7 UseDefaultName="true" UseDefaultType="true" FrameNumber="7" Name="" XfromFrame0="4.2" XfromAP="4.2" XfromAE="4.2" FrameTypeLabel="Secondary members" />
+        <Frame_8 UseDefaultName="true" UseDefaultType="true" FrameNumber="8" Name="" XfromFrame0="4.8" XfromAP="4.8" XfromAE="4.8" FrameTypeLabel="Secondary members" />
+        <Frame_9 UseDefaultName="true" UseDefaultType="false" FrameNumber="9" Name="" XfromFrame0="5.4" XfromAP="5.4" XfromAE="5.4" FrameTypeLabel="Primary members" />
+        <Frame_10 UseDefaultName="true" UseDefaultType="true" FrameNumber="10" Name="" XfromFrame0="6" XfromAP="6" XfromAE="6" FrameTypeLabel="Secondary members" />
+        <Frame_11 UseDefaultName="true" UseDefaultType="true" FrameNumber="11" Name="" XfromFrame0="6.6" XfromAP="6.6" XfromAE="6.6" FrameTypeLabel="Secondary members" />
+        <Frame_12 UseDefaultName="true" UseDefaultType="true" FrameNumber="12" Name="" XfromFrame0="7.2" XfromAP="7.2" XfromAE="7.2" FrameTypeLabel="Secondary members" />
+        <Frame_13 UseDefaultName="true" UseDefaultType="false" FrameNumber="13" Name="" XfromFrame0="7.8" XfromAP="7.8" XfromAE="7.8" FrameTypeLabel="Primary members" />
+        <Frame_14 UseDefaultName="true" UseDefaultType="true" FrameNumber="14" Name="" XfromFrame0="8.4" XfromAP="8.4" XfromAE="8.4" FrameTypeLabel="Secondary members" />
+        <Frame_15 UseDefaultName="true" UseDefaultType="true" FrameNumber="15" Name="" XfromFrame0="9" XfromAP="9" XfromAE="9" FrameTypeLabel="Secondary members" />
+        <Frame_16 UseDefaultName="true" UseDefaultType="true" FrameNumber="16" Name="" XfromFrame0="9.6" XfromAP="9.6" XfromAE="9.6" FrameTypeLabel="Secondary members" />
+        <Frame_17 UseDefaultName="true" UseDefaultType="false" FrameNumber="17" Name="" XfromFrame0="10.2" XfromAP="10.2" XfromAE="10.2" FrameTypeLabel="Primary members" />
+        <Frame_18 UseDefaultName="true" UseDefaultType="true" FrameNumber="18" Name="" XfromFrame0="10.8" XfromAP="10.8" XfromAE="10.8" FrameTypeLabel="Secondary members" />
+        <Frame_19 UseDefaultName="true" UseDefaultType="true" FrameNumber="19" Name="" XfromFrame0="11.4" XfromAP="11.4" XfromAE="11.4" FrameTypeLabel="Secondary members" />
+        <Frame_20 UseDefaultName="true" UseDefaultType="false" FrameNumber="20" Name="" XfromFrame0="12" XfromAP="12" XfromAE="12" FrameTypeLabel="Bulkhead" />
+      </grpfr_0>
+      <grpfr_1 Spacing="0.7" StartFrameNumber="20" EndFrameNumber="166">
+        <Frame_21 UseDefaultName="true" UseDefaultType="true" FrameNumber="21" Name="" XfromFrame0="12.7" XfromAP="12.7" XfromAE="12.7" FrameTypeLabel="Secondary members" />
+        <Frame_22 UseDefaultName="true" UseDefaultType="true" FrameNumber="22" Name="" XfromFrame0="13.4" XfromAP="13.4" XfromAE="13.4" FrameTypeLabel="Secondary members" />
+        <Frame_23 UseDefaultName="true" UseDefaultType="true" FrameNumber="23" Name="" XfromFrame0="14.1" XfromAP="14.1" XfromAE="14.1" FrameTypeLabel="Secondary members" />
+        <Frame_24 UseDefaultName="true" UseDefaultType="false" FrameNumber="24" Name="" XfromFrame0="14.8" XfromAP="14.8" XfromAE="14.8" FrameTypeLabel="Primary members" />
+        <Frame_25 UseDefaultName="true" UseDefaultType="true" FrameNumber="25" Name="" XfromFrame0="15.5" XfromAP="15.5" XfromAE="15.5" FrameTypeLabel="Secondary members" />
+        <Frame_26 UseDefaultName="true" UseDefaultType="true" FrameNumber="26" Name="" XfromFrame0="16.2" XfromAP="16.2" XfromAE="16.2" FrameTypeLabel="Secondary members" />
+        <Frame_27 UseDefaultName="true" UseDefaultType="true" FrameNumber="27" Name="" XfromFrame0="16.9" XfromAP="16.9" XfromAE="16.9" FrameTypeLabel="Secondary members" />
+        <Frame_28 UseDefaultName="true" UseDefaultType="false" FrameNumber="28" Name="" XfromFrame0="17.6" XfromAP="17.6" XfromAE="17.6" FrameTypeLabel="Primary members" />
+        <Frame_29 UseDefaultName="true" UseDefaultType="true" FrameNumber="29" Name="" XfromFrame0="18.3" XfromAP="18.3" XfromAE="18.3" FrameTypeLabel="Secondary members" />
+        <Frame_30 UseDefaultName="true" UseDefaultType="true" FrameNumber="30" Name="" XfromFrame0="19" XfromAP="19" XfromAE="19" FrameTypeLabel="Secondary members" />
+        <Frame_31 UseDefaultName="true" UseDefaultType="true" FrameNumber="31" Name="" XfromFrame0="19.7" XfromAP="19.7" XfromAE="19.7" FrameTypeLabel="Secondary members" />
+        <Frame_32 UseDefaultName="true" UseDefaultType="false" FrameNumber="32" Name="" XfromFrame0="20.4" XfromAP="20.4" XfromAE="20.4" FrameTypeLabel="Primary members" />
+        <Frame_33 UseDefaultName="true" UseDefaultType="true" FrameNumber="33" Name="" XfromFrame0="21.1" XfromAP="21.1" XfromAE="21.1" FrameTypeLabel="Secondary members" />
+        <Frame_34 UseDefaultName="true" UseDefaultType="true" FrameNumber="34" Name="" XfromFrame0="21.8" XfromAP="21.8" XfromAE="21.8" FrameTypeLabel="Secondary members" />
+        <Frame_35 UseDefaultName="true" UseDefaultType="true" FrameNumber="35" Name="" XfromFrame0="22.5" XfromAP="22.5" XfromAE="22.5" FrameTypeLabel="Secondary members" />
+        <Frame_36 UseDefaultName="true" UseDefaultType="false" FrameNumber="36" Name="" XfromFrame0="23.2" XfromAP="23.2" XfromAE="23.2" FrameTypeLabel="Primary members" />
+        <Frame_37 UseDefaultName="true" UseDefaultType="true" FrameNumber="37" Name="" XfromFrame0="23.9" XfromAP="23.9" XfromAE="23.9" FrameTypeLabel="Secondary members" />
+        <Frame_38 UseDefaultName="true" UseDefaultType="true" FrameNumber="38" Name="" XfromFrame0="24.6" XfromAP="24.6" XfromAE="24.6" FrameTypeLabel="Secondary members" />
+        <Frame_39 UseDefaultName="true" UseDefaultType="false" FrameNumber="39" Name="" XfromFrame0="25.3" XfromAP="25.3" XfromAE="25.3" FrameTypeLabel="Bulkhead" />
+        <Frame_40 UseDefaultName="true" UseDefaultType="true" FrameNumber="40" Name="" XfromFrame0="26" XfromAP="26" XfromAE="26" FrameTypeLabel="Secondary members" />
+        <Frame_41 UseDefaultName="true" UseDefaultType="true" FrameNumber="41" Name="" XfromFrame0="26.7" XfromAP="26.7" XfromAE="26.7" FrameTypeLabel="Secondary members" />
+        <Frame_42 UseDefaultName="true" UseDefaultType="false" FrameNumber="42" Name="" XfromFrame0="27.4" XfromAP="27.4" XfromAE="27.4" FrameTypeLabel="Bulkhead" />
+        <Frame_43 UseDefaultName="true" UseDefaultType="true" FrameNumber="43" Name="" XfromFrame0="28.1" XfromAP="28.1" XfromAE="28.1" FrameTypeLabel="Secondary members" />
+        <Frame_44 UseDefaultName="true" UseDefaultType="true" FrameNumber="44" Name="" XfromFrame0="28.8" XfromAP="28.8" XfromAE="28.8" FrameTypeLabel="Secondary members" />
+        <Frame_45 UseDefaultName="true" UseDefaultType="true" FrameNumber="45" Name="" XfromFrame0="29.5" XfromAP="29.5" XfromAE="29.5" FrameTypeLabel="Secondary members" />
+        <Frame_46 UseDefaultName="true" UseDefaultType="true" FrameNumber="46" Name="" XfromFrame0="30.2" XfromAP="30.2" XfromAE="30.2" FrameTypeLabel="Secondary members" />
+        <Frame_47 UseDefaultName="true" UseDefaultType="false" FrameNumber="47" Name="" XfromFrame0="30.9" XfromAP="30.9" XfromAE="30.9" FrameTypeLabel="Primary members" />
+        <Frame_48 UseDefaultName="true" UseDefaultType="true" FrameNumber="48" Name="" XfromFrame0="31.6" XfromAP="31.6" XfromAE="31.6" FrameTypeLabel="Secondary members" />
+        <Frame_49 UseDefaultName="true" UseDefaultType="true" FrameNumber="49" Name="" XfromFrame0="32.3" XfromAP="32.3" XfromAE="32.3" FrameTypeLabel="Secondary members" />
+        <Frame_50 UseDefaultName="true" UseDefaultType="true" FrameNumber="50" Name="" XfromFrame0="33" XfromAP="33" XfromAE="33" FrameTypeLabel="Secondary members" />
+        <Frame_51 UseDefaultName="true" UseDefaultType="false" FrameNumber="51" Name="" XfromFrame0="33.7" XfromAP="33.7" XfromAE="33.7" FrameTypeLabel="Bulkhead" />
+        <Frame_52 UseDefaultName="true" UseDefaultType="true" FrameNumber="52" Name="" XfromFrame0="34.4" XfromAP="34.4" XfromAE="34.4" FrameTypeLabel="Secondary members" />
+        <Frame_53 UseDefaultName="true" UseDefaultType="true" FrameNumber="53" Name="" XfromFrame0="35.1" XfromAP="35.1" XfromAE="35.1" FrameTypeLabel="Secondary members" />
+        <Frame_54 UseDefaultName="true" UseDefaultType="true" FrameNumber="54" Name="" XfromFrame0="35.8" XfromAP="35.8" XfromAE="35.8" FrameTypeLabel="Secondary members" />
+        <Frame_55 UseDefaultName="true" UseDefaultType="true" FrameNumber="55" Name="" XfromFrame0="36.5" XfromAP="36.5" XfromAE="36.5" FrameTypeLabel="Secondary members" />
+        <Frame_56 UseDefaultName="true" UseDefaultType="false" FrameNumber="56" Name="" XfromFrame0="37.2" XfromAP="37.2" XfromAE="37.2" FrameTypeLabel="Primary members" />
+        <Frame_57 UseDefaultName="true" UseDefaultType="true" FrameNumber="57" Name="" XfromFrame0="37.9" XfromAP="37.9" XfromAE="37.9" FrameTypeLabel="Secondary members" />
+        <Frame_58 UseDefaultName="true" UseDefaultType="true" FrameNumber="58" Name="" XfromFrame0="38.6" XfromAP="38.6" XfromAE="38.6" FrameTypeLabel="Secondary members" />
+        <Frame_59 UseDefaultName="true" UseDefaultType="true" FrameNumber="59" Name="" XfromFrame0="39.3" XfromAP="39.3" XfromAE="39.3" FrameTypeLabel="Secondary members" />
+        <Frame_60 UseDefaultName="true" UseDefaultType="false" FrameNumber="60" Name="" XfromFrame0="40" XfromAP="40" XfromAE="40" FrameTypeLabel="Primary members" />
+        <Frame_61 UseDefaultName="true" UseDefaultType="true" FrameNumber="61" Name="" XfromFrame0="40.7" XfromAP="40.7" XfromAE="40.7" FrameTypeLabel="Secondary members" />
+        <Frame_62 UseDefaultName="true" UseDefaultType="true" FrameNumber="62" Name="" XfromFrame0="41.4" XfromAP="41.4" XfromAE="41.4" FrameTypeLabel="Secondary members" />
+        <Frame_63 UseDefaultName="true" UseDefaultType="true" FrameNumber="63" Name="" XfromFrame0="42.1" XfromAP="42.1" XfromAE="42.1" FrameTypeLabel="Secondary members" />
+        <Frame_64 UseDefaultName="true" UseDefaultType="true" FrameNumber="64" Name="" XfromFrame0="42.8" XfromAP="42.8" XfromAE="42.8" FrameTypeLabel="Secondary members" />
+        <Frame_65 UseDefaultName="true" UseDefaultType="false" FrameNumber="65" Name="" XfromFrame0="43.5" XfromAP="43.5" XfromAE="43.5" FrameTypeLabel="Bulkhead" />
+        <Frame_66 UseDefaultName="true" UseDefaultType="true" FrameNumber="66" Name="" XfromFrame0="44.2" XfromAP="44.2" XfromAE="44.2" FrameTypeLabel="Secondary members" />
+        <Frame_67 UseDefaultName="true" UseDefaultType="true" FrameNumber="67" Name="" XfromFrame0="44.9" XfromAP="44.9" XfromAE="44.9" FrameTypeLabel="Secondary members" />
+        <Frame_68 UseDefaultName="true" UseDefaultType="true" FrameNumber="68" Name="" XfromFrame0="45.6" XfromAP="45.6" XfromAE="45.6" FrameTypeLabel="Secondary members" />
+        <Frame_69 UseDefaultName="true" UseDefaultType="false" FrameNumber="69" Name="" XfromFrame0="46.3" XfromAP="46.3" XfromAE="46.3" FrameTypeLabel="Primary members" />
+        <Frame_70 UseDefaultName="true" UseDefaultType="true" FrameNumber="70" Name="" XfromFrame0="47" XfromAP="47" XfromAE="47" FrameTypeLabel="Secondary members" />
+        <Frame_71 UseDefaultName="true" UseDefaultType="true" FrameNumber="71" Name="" XfromFrame0="47.7" XfromAP="47.7" XfromAE="47.7" FrameTypeLabel="Secondary members" />
+        <Frame_72 UseDefaultName="true" UseDefaultType="true" FrameNumber="72" Name="" XfromFrame0="48.4" XfromAP="48.4" XfromAE="48.4" FrameTypeLabel="Secondary members" />
+        <Frame_73 UseDefaultName="true" UseDefaultType="false" FrameNumber="73" Name="" XfromFrame0="49.1" XfromAP="49.1" XfromAE="49.1" FrameTypeLabel="Primary members" />
+        <Frame_74 UseDefaultName="true" UseDefaultType="true" FrameNumber="74" Name="" XfromFrame0="49.8" XfromAP="49.8" XfromAE="49.8" FrameTypeLabel="Secondary members" />
+        <Frame_75 UseDefaultName="true" UseDefaultType="true" FrameNumber="75" Name="" XfromFrame0="50.5" XfromAP="50.5" XfromAE="50.5" FrameTypeLabel="Secondary members" />
+        <Frame_76 UseDefaultName="true" UseDefaultType="true" FrameNumber="76" Name="" XfromFrame0="51.2" XfromAP="51.2" XfromAE="51.2" FrameTypeLabel="Secondary members" />
+        <Frame_77 UseDefaultName="true" UseDefaultType="false" FrameNumber="77" Name="" XfromFrame0="51.9" XfromAP="51.9" XfromAE="51.9" FrameTypeLabel="Primary members" />
+        <Frame_78 UseDefaultName="true" UseDefaultType="true" FrameNumber="78" Name="" XfromFrame0="52.6" XfromAP="52.6" XfromAE="52.6" FrameTypeLabel="Secondary members" />
+        <Frame_79 UseDefaultName="true" UseDefaultType="true" FrameNumber="79" Name="" XfromFrame0="53.3" XfromAP="53.3" XfromAE="53.3" FrameTypeLabel="Secondary members" />
+        <Frame_80 UseDefaultName="true" UseDefaultType="true" FrameNumber="80" Name="" XfromFrame0="54" XfromAP="54" XfromAE="54" FrameTypeLabel="Secondary members" />
+        <Frame_81 UseDefaultName="true" UseDefaultType="false" FrameNumber="81" Name="" XfromFrame0="54.7" XfromAP="54.7" XfromAE="54.7" FrameTypeLabel="Primary members" />
+        <Frame_82 UseDefaultName="true" UseDefaultType="true" FrameNumber="82" Name="" XfromFrame0="55.4" XfromAP="55.4" XfromAE="55.4" FrameTypeLabel="Secondary members" />
+        <Frame_83 UseDefaultName="true" UseDefaultType="true" FrameNumber="83" Name="" XfromFrame0="56.1" XfromAP="56.1" XfromAE="56.1" FrameTypeLabel="Secondary members" />
+        <Frame_84 UseDefaultName="true" UseDefaultType="true" FrameNumber="84" Name="" XfromFrame0="56.8" XfromAP="56.8" XfromAE="56.8" FrameTypeLabel="Secondary members" />
+        <Frame_85 UseDefaultName="true" UseDefaultType="true" FrameNumber="85" Name="" XfromFrame0="57.5" XfromAP="57.5" XfromAE="57.5" FrameTypeLabel="Secondary members" />
+        <Frame_86 UseDefaultName="true" UseDefaultType="false" FrameNumber="86" Name="" XfromFrame0="58.2" XfromAP="58.2" XfromAE="58.2" FrameTypeLabel="Primary members" />
+        <Frame_87 UseDefaultName="true" UseDefaultType="true" FrameNumber="87" Name="" XfromFrame0="58.9" XfromAP="58.9" XfromAE="58.9" FrameTypeLabel="Secondary members" />
+        <Frame_88 UseDefaultName="true" UseDefaultType="true" FrameNumber="88" Name="" XfromFrame0="59.6" XfromAP="59.6" XfromAE="59.6" FrameTypeLabel="Secondary members" />
+        <Frame_89 UseDefaultName="true" UseDefaultType="true" FrameNumber="89" Name="" XfromFrame0="60.3" XfromAP="60.3" XfromAE="60.3" FrameTypeLabel="Secondary members" />
+        <Frame_90 UseDefaultName="true" UseDefaultType="true" FrameNumber="90" Name="" XfromFrame0="61" XfromAP="61" XfromAE="61" FrameTypeLabel="Secondary members" />
+        <Frame_91 UseDefaultName="true" UseDefaultType="false" FrameNumber="91" Name="" XfromFrame0="61.7" XfromAP="61.7" XfromAE="61.7" FrameTypeLabel="Bulkhead" />
+        <Frame_92 UseDefaultName="true" UseDefaultType="true" FrameNumber="92" Name="" XfromFrame0="62.4" XfromAP="62.4" XfromAE="62.4" FrameTypeLabel="Secondary members" />
+        <Frame_93 UseDefaultName="true" UseDefaultType="true" FrameNumber="93" Name="" XfromFrame0="63.1" XfromAP="63.1" XfromAE="63.1" FrameTypeLabel="Secondary members" />
+        <Frame_94 UseDefaultName="true" UseDefaultType="true" FrameNumber="94" Name="" XfromFrame0="63.8" XfromAP="63.8" XfromAE="63.8" FrameTypeLabel="Secondary members" />
+        <Frame_95 UseDefaultName="true" UseDefaultType="false" FrameNumber="95" Name="" XfromFrame0="64.5" XfromAP="64.5" XfromAE="64.5" FrameTypeLabel="Primary members" />
+        <Frame_96 UseDefaultName="true" UseDefaultType="true" FrameNumber="96" Name="" XfromFrame0="65.2" XfromAP="65.2" XfromAE="65.2" FrameTypeLabel="Secondary members" />
+        <Frame_97 UseDefaultName="true" UseDefaultType="true" FrameNumber="97" Name="" XfromFrame0="65.9" XfromAP="65.9" XfromAE="65.9" FrameTypeLabel="Secondary members" />
+        <Frame_98 UseDefaultName="true" UseDefaultType="true" FrameNumber="98" Name="" XfromFrame0="66.6" XfromAP="66.6" XfromAE="66.6" FrameTypeLabel="Secondary members" />
+        <Frame_99 UseDefaultName="true" UseDefaultType="false" FrameNumber="99" Name="" XfromFrame0="67.3" XfromAP="67.3" XfromAE="67.3" FrameTypeLabel="Primary members" />
+        <Frame_100 UseDefaultName="true" UseDefaultType="true" FrameNumber="100" Name="" XfromFrame0="68" XfromAP="68" XfromAE="68" FrameTypeLabel="Secondary members" />
+        <Frame_101 UseDefaultName="true" UseDefaultType="true" FrameNumber="101" Name="" XfromFrame0="68.7" XfromAP="68.7" XfromAE="68.7" FrameTypeLabel="Secondary members" />
+        <Frame_102 UseDefaultName="true" UseDefaultType="true" FrameNumber="102" Name="" XfromFrame0="69.4" XfromAP="69.4" XfromAE="69.4" FrameTypeLabel="Secondary members" />
+        <Frame_103 UseDefaultName="true" UseDefaultType="true" FrameNumber="103" Name="" XfromFrame0="70.1" XfromAP="70.1" XfromAE="70.1" FrameTypeLabel="Secondary members" />
+        <Frame_104 UseDefaultName="true" UseDefaultType="false" FrameNumber="104" Name="" XfromFrame0="70.8" XfromAP="70.8" XfromAE="70.8" FrameTypeLabel="Bulkhead" />
+        <Frame_105 UseDefaultName="true" UseDefaultType="true" FrameNumber="105" Name="" XfromFrame0="71.5" XfromAP="71.5" XfromAE="71.5" FrameTypeLabel="Secondary members" />
+        <Frame_106 UseDefaultName="true" UseDefaultType="true" FrameNumber="106" Name="" XfromFrame0="72.2" XfromAP="72.2" XfromAE="72.2" FrameTypeLabel="Secondary members" />
+        <Frame_107 UseDefaultName="true" UseDefaultType="true" FrameNumber="107" Name="" XfromFrame0="72.9" XfromAP="72.9" XfromAE="72.9" FrameTypeLabel="Secondary members" />
+        <Frame_108 UseDefaultName="true" UseDefaultType="false" FrameNumber="108" Name="" XfromFrame0="73.6" XfromAP="73.6" XfromAE="73.6" FrameTypeLabel="Primary members" />
+        <Frame_109 UseDefaultName="true" UseDefaultType="true" FrameNumber="109" Name="" XfromFrame0="74.3" XfromAP="74.3" XfromAE="74.3" FrameTypeLabel="Secondary members" />
+        <Frame_110 UseDefaultName="true" UseDefaultType="true" FrameNumber="110" Name="" XfromFrame0="75" XfromAP="75" XfromAE="75" FrameTypeLabel="Secondary members" />
+        <Frame_111 UseDefaultName="true" UseDefaultType="true" FrameNumber="111" Name="" XfromFrame0="75.7" XfromAP="75.7" XfromAE="75.7" FrameTypeLabel="Secondary members" />
+        <Frame_112 UseDefaultName="true" UseDefaultType="false" FrameNumber="112" Name="" XfromFrame0="76.4" XfromAP="76.4" XfromAE="76.4" FrameTypeLabel="Primary members" />
+        <Frame_113 UseDefaultName="true" UseDefaultType="true" FrameNumber="113" Name="" XfromFrame0="77.1" XfromAP="77.1" XfromAE="77.1" FrameTypeLabel="Secondary members" />
+        <Frame_114 UseDefaultName="true" UseDefaultType="true" FrameNumber="114" Name="" XfromFrame0="77.8" XfromAP="77.8" XfromAE="77.8" FrameTypeLabel="Secondary members" />
+        <Frame_115 UseDefaultName="true" UseDefaultType="false" FrameNumber="115" Name="" XfromFrame0="78.5" XfromAP="78.5" XfromAE="78.5" FrameTypeLabel="Primary members" />
+        <Frame_116 UseDefaultName="true" UseDefaultType="true" FrameNumber="116" Name="" XfromFrame0="79.2" XfromAP="79.2" XfromAE="79.2" FrameTypeLabel="Secondary members" />
+        <Frame_117 UseDefaultName="true" UseDefaultType="true" FrameNumber="117" Name="" XfromFrame0="79.9" XfromAP="79.9" XfromAE="79.9" FrameTypeLabel="Secondary members" />
+        <Frame_118 UseDefaultName="true" UseDefaultType="true" FrameNumber="118" Name="" XfromFrame0="80.6" XfromAP="80.6" XfromAE="80.6" FrameTypeLabel="Secondary members" />
+        <Frame_119 UseDefaultName="true" UseDefaultType="false" FrameNumber="119" Name="" XfromFrame0="81.3" XfromAP="81.3" XfromAE="81.3" FrameTypeLabel="Bulkhead" />
+        <Frame_120 UseDefaultName="true" UseDefaultType="true" FrameNumber="120" Name="" XfromFrame0="82" XfromAP="82" XfromAE="82" FrameTypeLabel="Secondary members" />
+        <Frame_121 UseDefaultName="true" UseDefaultType="true" FrameNumber="121" Name="" XfromFrame0="82.7" XfromAP="82.7" XfromAE="82.7" FrameTypeLabel="Secondary members" />
+        <Frame_122 UseDefaultName="true" UseDefaultType="true" FrameNumber="122" Name="" XfromFrame0="83.4" XfromAP="83.4" XfromAE="83.4" FrameTypeLabel="Secondary members" />
+        <Frame_123 UseDefaultName="true" UseDefaultType="false" FrameNumber="123" Name="" XfromFrame0="84.1" XfromAP="84.1" XfromAE="84.1" FrameTypeLabel="Primary members" />
+        <Frame_124 UseDefaultName="true" UseDefaultType="true" FrameNumber="124" Name="" XfromFrame0="84.8" XfromAP="84.8" XfromAE="84.8" FrameTypeLabel="Secondary members" />
+        <Frame_125 UseDefaultName="true" UseDefaultType="true" FrameNumber="125" Name="" XfromFrame0="85.5" XfromAP="85.5" XfromAE="85.5" FrameTypeLabel="Secondary members" />
+        <Frame_126 UseDefaultName="true" UseDefaultType="true" FrameNumber="126" Name="" XfromFrame0="86.2" XfromAP="86.2" XfromAE="86.2" FrameTypeLabel="Secondary members" />
+        <Frame_127 UseDefaultName="true" UseDefaultType="false" FrameNumber="127" Name="" XfromFrame0="86.9" XfromAP="86.9" XfromAE="86.9" FrameTypeLabel="Primary members" />
+        <Frame_128 UseDefaultName="true" UseDefaultType="true" FrameNumber="128" Name="" XfromFrame0="87.6" XfromAP="87.6" XfromAE="87.6" FrameTypeLabel="Secondary members" />
+        <Frame_129 UseDefaultName="true" UseDefaultType="true" FrameNumber="129" Name="" XfromFrame0="88.3" XfromAP="88.3" XfromAE="88.3" FrameTypeLabel="Secondary members" />
+        <Frame_130 UseDefaultName="true" UseDefaultType="true" FrameNumber="130" Name="" XfromFrame0="89" XfromAP="89" XfromAE="89" FrameTypeLabel="Secondary members" />
+        <Frame_131 UseDefaultName="true" UseDefaultType="false" FrameNumber="131" Name="" XfromFrame0="89.7" XfromAP="89.7" XfromAE="89.7" FrameTypeLabel="Primary members" />
+        <Frame_132 UseDefaultName="true" UseDefaultType="true" FrameNumber="132" Name="" XfromFrame0="90.4" XfromAP="90.4" XfromAE="90.4" FrameTypeLabel="Secondary members" />
+        <Frame_133 UseDefaultName="true" UseDefaultType="true" FrameNumber="133" Name="" XfromFrame0="91.1" XfromAP="91.1" XfromAE="91.1" FrameTypeLabel="Secondary members" />
+        <Frame_134 UseDefaultName="true" UseDefaultType="true" FrameNumber="134" Name="" XfromFrame0="91.8" XfromAP="91.8" XfromAE="91.8" FrameTypeLabel="Secondary members" />
+        <Frame_135 UseDefaultName="true" UseDefaultType="true" FrameNumber="135" Name="" XfromFrame0="92.5" XfromAP="92.5" XfromAE="92.5" FrameTypeLabel="Secondary members" />
+        <Frame_136 UseDefaultName="true" UseDefaultType="false" FrameNumber="136" Name="" XfromFrame0="93.2" XfromAP="93.2" XfromAE="93.2" FrameTypeLabel="Bulkhead" />
+        <Frame_137 UseDefaultName="true" UseDefaultType="true" FrameNumber="137" Name="" XfromFrame0="93.9" XfromAP="93.9" XfromAE="93.9" FrameTypeLabel="Secondary members" />
+        <Frame_138 UseDefaultName="true" UseDefaultType="true" FrameNumber="138" Name="" XfromFrame0="94.6" XfromAP="94.6" XfromAE="94.6" FrameTypeLabel="Secondary members" />
+        <Frame_139 UseDefaultName="true" UseDefaultType="true" FrameNumber="139" Name="" XfromFrame0="95.3" XfromAP="95.3" XfromAE="95.3" FrameTypeLabel="Secondary members" />
+        <Frame_140 UseDefaultName="true" UseDefaultType="false" FrameNumber="140" Name="" XfromFrame0="96" XfromAP="96" XfromAE="96" FrameTypeLabel="Primary members" />
+        <Frame_141 UseDefaultName="true" UseDefaultType="true" FrameNumber="141" Name="" XfromFrame0="96.7" XfromAP="96.7" XfromAE="96.7" FrameTypeLabel="Secondary members" />
+        <Frame_142 UseDefaultName="true" UseDefaultType="true" FrameNumber="142" Name="" XfromFrame0="97.4" XfromAP="97.4" XfromAE="97.4" FrameTypeLabel="Secondary members" />
+        <Frame_143 UseDefaultName="true" UseDefaultType="true" FrameNumber="143" Name="" XfromFrame0="98.1" XfromAP="98.1" XfromAE="98.1" FrameTypeLabel="Secondary members" />
+        <Frame_144 UseDefaultName="true" UseDefaultType="false" FrameNumber="144" Name="" XfromFrame0="98.8" XfromAP="98.8" XfromAE="98.8" FrameTypeLabel="Primary members" />
+        <Frame_145 UseDefaultName="true" UseDefaultType="true" FrameNumber="145" Name="" XfromFrame0="99.5" XfromAP="99.5" XfromAE="99.5" FrameTypeLabel="Secondary members" />
+        <Frame_146 UseDefaultName="true" UseDefaultType="true" FrameNumber="146" Name="" XfromFrame0="100.2" XfromAP="100.2" XfromAE="100.2" FrameTypeLabel="Secondary members" />
+        <Frame_147 UseDefaultName="true" UseDefaultType="true" FrameNumber="147" Name="" XfromFrame0="100.9" XfromAP="100.9" XfromAE="100.9" FrameTypeLabel="Secondary members" />
+        <Frame_148 UseDefaultName="true" UseDefaultType="true" FrameNumber="148" Name="" XfromFrame0="101.6" XfromAP="101.6" XfromAE="101.6" FrameTypeLabel="Secondary members" />
+        <Frame_149 UseDefaultName="true" UseDefaultType="false" FrameNumber="149" Name="" XfromFrame0="102.3" XfromAP="102.3" XfromAE="102.3" FrameTypeLabel="Bulkhead" />
+        <Frame_150 UseDefaultName="true" UseDefaultType="true" FrameNumber="150" Name="" XfromFrame0="103" XfromAP="103" XfromAE="103" FrameTypeLabel="Secondary members" />
+        <Frame_151 UseDefaultName="true" UseDefaultType="true" FrameNumber="151" Name="" XfromFrame0="103.7" XfromAP="103.7" XfromAE="103.7" FrameTypeLabel="Secondary members" />
+        <Frame_152 UseDefaultName="true" UseDefaultType="true" FrameNumber="152" Name="" XfromFrame0="104.4" XfromAP="104.4" XfromAE="104.4" FrameTypeLabel="Secondary members" />
+        <Frame_153 UseDefaultName="true" UseDefaultType="true" FrameNumber="153" Name="" XfromFrame0="105.1" XfromAP="105.1" XfromAE="105.1" FrameTypeLabel="Secondary members" />
+        <Frame_154 UseDefaultName="true" UseDefaultType="false" FrameNumber="154" Name="" XfromFrame0="105.8" XfromAP="105.8" XfromAE="105.8" FrameTypeLabel="Bulkhead" />
+        <Frame_155 UseDefaultName="true" UseDefaultType="true" FrameNumber="155" Name="" XfromFrame0="106.5" XfromAP="106.5" XfromAE="106.5" FrameTypeLabel="Secondary members" />
+        <Frame_156 UseDefaultName="true" UseDefaultType="true" FrameNumber="156" Name="" XfromFrame0="107.2" XfromAP="107.2" XfromAE="107.2" FrameTypeLabel="Secondary members" />
+        <Frame_157 UseDefaultName="true" UseDefaultType="true" FrameNumber="157" Name="" XfromFrame0="107.9" XfromAP="107.9" XfromAE="107.9" FrameTypeLabel="Secondary members" />
+        <Frame_158 UseDefaultName="true" UseDefaultType="true" FrameNumber="158" Name="" XfromFrame0="108.6" XfromAP="108.6" XfromAE="108.6" FrameTypeLabel="Secondary members" />
+        <Frame_159 UseDefaultName="true" UseDefaultType="false" FrameNumber="159" Name="" XfromFrame0="109.3" XfromAP="109.3" XfromAE="109.3" FrameTypeLabel="Primary members" />
+        <Frame_160 UseDefaultName="true" UseDefaultType="true" FrameNumber="160" Name="" XfromFrame0="110" XfromAP="110" XfromAE="110" FrameTypeLabel="Secondary members" />
+        <Frame_161 UseDefaultName="true" UseDefaultType="true" FrameNumber="161" Name="" XfromFrame0="110.7" XfromAP="110.7" XfromAE="110.7" FrameTypeLabel="Secondary members" />
+        <Frame_162 UseDefaultName="true" UseDefaultType="true" FrameNumber="162" Name="" XfromFrame0="111.4" XfromAP="111.4" XfromAE="111.4" FrameTypeLabel="Secondary members" />
+        <Frame_163 UseDefaultName="true" UseDefaultType="true" FrameNumber="163" Name="" XfromFrame0="112.1" XfromAP="112.1" XfromAE="112.1" FrameTypeLabel="Secondary members" />
+        <Frame_164 UseDefaultName="true" UseDefaultType="true" FrameNumber="164" Name="" XfromFrame0="112.8" XfromAP="112.8" XfromAE="112.8" FrameTypeLabel="Secondary members" />
+        <Frame_165 UseDefaultName="true" UseDefaultType="true" FrameNumber="165" Name="" XfromFrame0="113.5" XfromAP="113.5" XfromAE="113.5" FrameTypeLabel="Secondary members" />
+        <Frame_166 UseDefaultName="true" UseDefaultType="true" FrameNumber="166" Name="" XfromFrame0="114.2" XfromAP="114.2" XfromAE="114.2" FrameTypeLabel="Secondary members" />
+      </grpfr_1>
+    </FrameTables>
+    <BsdMaterials ShipMainMaterial="Steel" DeckZoneMaterial="1" NeutralZoneMaterial="1" BottomZoneMaterial="1" ApplyMaterialK390As066="false">
+      <Materials>
+        <Material MaterialType="Steel" YieldStress="235" YoungModulus="206000" />
+        <Material MaterialType="Steel" YieldStress="355" YoungModulus="206000" />
+      </Materials>
+    </BsdMaterials>
+    <BsdStillWaterBendingMoments>
+      <Navigation DesignerHogging="0" DesignerSagging="0" DistributionType="RulePreliminaryValue">
+        <DesignerDistribution />
+      </Navigation>
+      <Harbour DesignerHogging="0" DesignerSagging="0" DistributionType="RulePreliminaryValue">
+        <DesignerDistribution />
+      </Harbour>
+      <Flooding />
+    </BsdStillWaterBendingMoments>
+    <BsdStillWaterShearForces>
+      <Navigation>
+        <DesignerDistribution />
+      </Navigation>
+      <Harbour>
+        <DesignerDistribution />
+      </Harbour>
+      <Flooding>
+        <DesignerDistribution />
+      </Flooding>
+      <EcfpFlooding>
+        <DesignerDistribution />
+      </EcfpFlooding>
+    </BsdStillWaterShearForces>
+    <TorsionStillWaterMoments DesignTorsionalStillWaterMoment_Seagoing="0" DesignTorsionalStillWaterMoment_Harbour="0" DefaultRuleTorsionalStillWaterMoment_Seagoing="0" IsDegisnerStillWaterTorsionalMoment_Seagoing="true" IsDegisnerStillWaterTorsionalMoment_Harbour="true" Td_Seagoing="0" Sd_Seagoing="0" Th_Seagoing="0" Sh_Seagoing="0" />
+    <SteelMars SteelComment="" SteelRequestDate="" />
+  </Bsd>
+  <Catalogue>
+    <Profiles>
+      <Profile PID="D148C058-F10D-4D2C-9C4A-12FBBA1EFEB2" ScantlingType="Undefined" FlgEdg="0" IsRolled="false" IsShipyard="false" FlgHeigh="0" FlgThick="0" WebHeigh="0" WebThick="0" RadiusR1="0" RadiusR2="0" RadiusR3="0" StdPrfTyp="Undefined" />
+      <Profile PID="12530654-8816-44d3-9b7f-44d28cf64244" ScantlingType="FlatBar" FlgEdg="0" IsRolled="false" IsShipyard="false" FlgHeigh="0" FlgThick="0" WebHeigh="180" WebThick="10" RadiusR1="0" RadiusR2="0" RadiusR3="0" StdPrfTyp="None" />
+      <Profile PID="f7e4d55e-bb6e-4955-95e8-702631f6cdd1" ScantlingType="Bulb" FlgEdg="0" IsRolled="true" IsShipyard="false" FlgHeigh="25" FlgThick="0" WebHeigh="180" WebThick="8" RadiusR1="7" RadiusR2="7" RadiusR3="0" StdPrfTyp="None" />
+      <Profile PID="0426899f-0253-44da-85b9-de7693df3bfb" ScantlingType="Bulb" FlgEdg="0" IsRolled="true" IsShipyard="false" FlgHeigh="31" FlgThick="0" WebHeigh="220" WebThick="11.5" RadiusR1="9" RadiusR2="9" RadiusR3="0" StdPrfTyp="None" />
+      <Profile PID="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" ScantlingType="Bulb" FlgEdg="0" IsRolled="true" IsShipyard="false" FlgHeigh="37" FlgThick="0" WebHeigh="260" WebThick="10" RadiusR1="11" RadiusR2="11" RadiusR3="0" StdPrfTyp="None" />
+      <Profile PID="adb1f438-4b8d-43f8-8a16-93d583d0eb43" ScantlingType="Bulb" FlgEdg="0" IsRolled="true" IsShipyard="false" FlgHeigh="43" FlgThick="0" WebHeigh="300" WebThick="11" RadiusR1="13" RadiusR2="13" RadiusR3="0" StdPrfTyp="None" />
+      <Profile PID="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" ScantlingType="Bulb" FlgEdg="0" IsRolled="true" IsShipyard="false" FlgHeigh="46" FlgThick="0" WebHeigh="320" WebThick="12" RadiusR1="14" RadiusR2="14" RadiusR3="0" StdPrfTyp="None" />
+      <Profile PID="a6e66827-916f-4781-9d16-5d5974234045" ScantlingType="Bulb" FlgEdg="0" IsRolled="true" IsShipyard="false" FlgHeigh="63" FlgThick="0" WebHeigh="400" WebThick="15" RadiusR1="18" RadiusR2="18" RadiusR3="0" StdPrfTyp="None" />
+    </Profiles>
+    <DomainValidities />
+  </Catalogue>
+  <Compartments>
+    <Compartment Name="Cargo Tank 1S" MainDestination="CargoOilTank" ShortName="CT 1S" XG="96.92" YG="-2.22" ZG="6" XStart="93.2" Length="9.1" Height="8.4" Breadth="4.2" ZTop="9.4" ZMin="1.2" LengthAtInnerBottom="9.1" IsIndependentTank="false" IsHeated="false" HasProtectiveCoating="false" IsPipeTunnel="false" HasContinuousWoodenCeiling="false" NonPristmaticShape="false">
+      <Loads LoadCategory="OilCargo" HasWaterBallastLoad="false" HasLiquidLoad="true" HasDryBulkLoads="false" HasAlternateLoads="false">
+        <LiquidLoad Density="1.6" TestHeight="0" SettingPressure="0" ZTopOfAirPipe="0" />
+      </Loads>
+    </Compartment>
+    <Compartment Name="Cargo Tank 1P" MainDestination="CargoOilTank" ShortName="CT 1P" XG="96.92" YG="2.19" ZG="6" XStart="93.2" Length="9.1" Height="8.4" Breadth="4.2" ZTop="9.4" ZMin="1.2" LengthAtInnerBottom="9.1" IsIndependentTank="false" IsHeated="false" HasProtectiveCoating="false" IsPipeTunnel="false" HasContinuousWoodenCeiling="false" NonPristmaticShape="false">
+      <Loads LoadCategory="OilCargo" HasWaterBallastLoad="false" HasLiquidLoad="true" HasDryBulkLoads="false" HasAlternateLoads="false">
+        <LiquidLoad Density="1.6" TestHeight="0" SettingPressure="0" ZTopOfAirPipe="0" />
+      </Loads>
+    </Compartment>
+    <Compartment Name="Cargo Tank 2P" MainDestination="CargoOilTank" ShortName="CT 2P" XG="86.54" YG="3.32" ZG="5.74" XStart="81.3" Length="11.9" Height="8.4" Breadth="6.94" ZTop="9.4" ZMin="1.2" LengthAtInnerBottom="11.9" IsIndependentTank="false" IsHeated="false" HasProtectiveCoating="false" IsPipeTunnel="false" HasContinuousWoodenCeiling="false" NonPristmaticShape="false">
+      <Loads LoadCategory="OilCargo" HasWaterBallastLoad="false" HasLiquidLoad="true" HasDryBulkLoads="false" HasAlternateLoads="false">
+        <LiquidLoad Density="1.6" TestHeight="0" SettingPressure="0" ZTopOfAirPipe="0" />
+      </Loads>
+    </Compartment>
+    <Compartment Name="Cargo Tank 2S" MainDestination="CargoOilTank" ShortName="CT 2S" XG="86.54" YG="-3.28" ZG="5.74" XStart="81.3" Length="11.9" Height="8.4" Breadth="6.94" ZTop="9.4" ZMin="1.2" LengthAtInnerBottom="11.9" IsIndependentTank="false" IsHeated="false" HasProtectiveCoating="false" IsPipeTunnel="false" HasContinuousWoodenCeiling="false" NonPristmaticShape="false">
+      <Loads LoadCategory="OilCargo" HasWaterBallastLoad="false" HasLiquidLoad="true" HasDryBulkLoads="false" HasAlternateLoads="false">
+        <LiquidLoad Density="1.6" TestHeight="0" SettingPressure="0" ZTopOfAirPipe="0" />
+      </Loads>
+    </Compartment>
+    <Compartment Name="Cargo Tank 3P" MainDestination="CargoOilTank" ShortName="CT 3P" XG="76.03" YG="3.75" ZG="5.54" XStart="70.8" Length="10.5" Height="8.4" Breadth="8" ZTop="9.4" ZMin="1.2" LengthAtInnerBottom="10.5" IsIndependentTank="false" IsHeated="false" HasProtectiveCoating="false" IsPipeTunnel="false" HasContinuousWoodenCeiling="false" NonPristmaticShape="false">
+      <Loads LoadCategory="OilCargo" HasWaterBallastLoad="false" HasLiquidLoad="true" HasDryBulkLoads="false" HasAlternateLoads="false">
+        <LiquidLoad Density="1.6" TestHeight="0" SettingPressure="0" ZTopOfAirPipe="0" />
+      </Loads>
+    </Compartment>
+    <Compartment Name="Cargo Tank 3S" MainDestination="CargoOilTank" ShortName="CT 3S" XG="75.96" YG="-3.75" ZG="5.54" XStart="70.8" Length="10.5" Height="8.4" Breadth="8" ZTop="9.4" ZMin="1.2" LengthAtInnerBottom="10.5" IsIndependentTank="false" IsHeated="false" HasProtectiveCoating="false" IsPipeTunnel="false" HasContinuousWoodenCeiling="false" NonPristmaticShape="false">
+      <Loads LoadCategory="OilCargo" HasWaterBallastLoad="false" HasLiquidLoad="true" HasDryBulkLoads="false" HasAlternateLoads="false">
+        <LiquidLoad Density="1.6" TestHeight="0" SettingPressure="0" ZTopOfAirPipe="0" />
+      </Loads>
+    </Compartment>
+    <Compartment Name="Cargo Tank 4P" MainDestination="CargoOilTank" ShortName="CT 4P" XG="66.24" YG="3.92" ZG="5.44" XStart="61.7" Length="9.1" Height="8.4" Breadth="8" ZTop="9.4" ZMin="1.2" LengthAtInnerBottom="9.1" IsIndependentTank="false" IsHeated="false" HasProtectiveCoating="false" IsPipeTunnel="false" HasContinuousWoodenCeiling="false" NonPristmaticShape="false">
+      <Loads LoadCategory="OilCargo" HasWaterBallastLoad="false" HasLiquidLoad="true" HasDryBulkLoads="false" HasAlternateLoads="false">
+        <LiquidLoad Density="1.6" TestHeight="0" SettingPressure="0" ZTopOfAirPipe="0" />
+      </Loads>
+    </Compartment>
+    <Compartment Name="Cargo Tank 4S" MainDestination="CargoOilTank" ShortName="CT 4S" XG="66.24" YG="-3.95" ZG="5.44" XStart="61.7" Length="9.1" Height="8.4" Breadth="8" ZTop="9.4" ZMin="1.2" LengthAtInnerBottom="9.1" IsIndependentTank="false" IsHeated="false" HasProtectiveCoating="false" IsPipeTunnel="false" HasContinuousWoodenCeiling="false" NonPristmaticShape="false">
+      <Loads LoadCategory="OilCargo" HasWaterBallastLoad="false" HasLiquidLoad="true" HasDryBulkLoads="false" HasAlternateLoads="false">
+        <LiquidLoad Density="1.6" TestHeight="0" SettingPressure="0" ZTopOfAirPipe="0" />
+      </Loads>
+    </Compartment>
+    <Compartment Name="Cargo Tank 5P" MainDestination="CargoOilTank" ShortName="CT 5P" XG="52.22" YG="3.92" ZG="5.43" XStart="43.7" Length="18" Height="8.4" Breadth="8" ZTop="9.4" ZMin="1.2" LengthAtInnerBottom="18" IsIndependentTank="false" IsHeated="false" HasProtectiveCoating="false" IsPipeTunnel="false" HasContinuousWoodenCeiling="false" NonPristmaticShape="false">
+      <Loads LoadCategory="OilCargo" HasWaterBallastLoad="false" HasLiquidLoad="true" HasDryBulkLoads="false" HasAlternateLoads="false">
+        <LiquidLoad Density="1.6" TestHeight="0" SettingPressure="0" ZTopOfAirPipe="0" />
+      </Loads>
+    </Compartment>
+    <Compartment Name="Cargo Tank 5S" MainDestination="CargoOilTank" ShortName="CT 5S" XG="52.28" YG="-3.92" ZG="5.43" XStart="43.7" Length="18" Height="8.45" Breadth="8" ZTop="9.65" ZMin="1.2" LengthAtInnerBottom="18" IsIndependentTank="false" IsHeated="false" HasProtectiveCoating="false" IsPipeTunnel="false" HasContinuousWoodenCeiling="false" NonPristmaticShape="false">
+      <Loads LoadCategory="OilCargo" HasWaterBallastLoad="false" HasLiquidLoad="true" HasDryBulkLoads="false" HasAlternateLoads="false">
+        <LiquidLoad Density="1.6" TestHeight="0" SettingPressure="0" ZTopOfAirPipe="0" />
+      </Loads>
+    </Compartment>
+    <Compartment Name="Cargo Tank 6P" MainDestination="CargoOilTank" ShortName="CT 6P" XG="38.27" YG="3.93" ZG="5.46" XStart="33.7" Length="10" Height="8.4" Breadth="8" ZTop="9.4" ZMin="1.2" LengthAtInnerBottom="10" IsIndependentTank="false" IsHeated="false" HasProtectiveCoating="false" IsPipeTunnel="false" HasContinuousWoodenCeiling="false" NonPristmaticShape="false">
+      <Loads LoadCategory="OilCargo" HasWaterBallastLoad="false" HasLiquidLoad="true" HasDryBulkLoads="false" HasAlternateLoads="false">
+        <LiquidLoad Density="1.6" TestHeight="0" SettingPressure="0" ZTopOfAirPipe="0" />
+      </Loads>
+    </Compartment>
+    <Compartment Name="Cargo Tank 6S" MainDestination="CargoOilTank" ShortName="CT 6S" XG="38.27" YG="-3.9" ZG="5.46" XStart="33.7" Length="10" Height="8.4" Breadth="8" ZTop="9.4" ZMin="1.2" LengthAtInnerBottom="10" IsIndependentTank="false" IsHeated="false" HasProtectiveCoating="false" IsPipeTunnel="false" HasContinuousWoodenCeiling="false" NonPristmaticShape="false">
+      <Loads LoadCategory="OilCargo" HasWaterBallastLoad="false" HasLiquidLoad="true" HasDryBulkLoads="false" HasAlternateLoads="false">
+        <LiquidLoad Density="1.6" TestHeight="0" SettingPressure="0" ZTopOfAirPipe="0" />
+      </Loads>
+    </Compartment>
+    <Compartment Name="Cargo Tank 7P" MainDestination="CargoOilTank" ShortName="CT 7P" XG="30.58" YG="3.73" ZG="5.61" XStart="27.4" Length="6.3" Height="8.4" Breadth="8" ZTop="9.4" ZMin="1.2" LengthAtInnerBottom="6.3" IsIndependentTank="false" IsHeated="false" HasProtectiveCoating="false" IsPipeTunnel="false" HasContinuousWoodenCeiling="false" NonPristmaticShape="false">
+      <Loads LoadCategory="OilCargo" HasWaterBallastLoad="false" HasLiquidLoad="true" HasDryBulkLoads="false" HasAlternateLoads="false">
+        <LiquidLoad Density="1.6" TestHeight="0" SettingPressure="0" ZTopOfAirPipe="0" />
+      </Loads>
+    </Compartment>
+    <Compartment Name="Cargo Tank 7S" MainDestination="CargoOilTank" ShortName="CT 7S" XG="30.58" YG="-3.82" ZG="5.61" XStart="27.4" Length="6.3" Height="8.4" Breadth="8" ZTop="9.4" ZMin="1.2" LengthAtInnerBottom="6.3" IsIndependentTank="false" IsHeated="false" HasProtectiveCoating="false" IsPipeTunnel="false" HasContinuousWoodenCeiling="false" NonPristmaticShape="false">
+      <Loads LoadCategory="OilCargo" HasWaterBallastLoad="false" HasLiquidLoad="true" HasDryBulkLoads="false" HasAlternateLoads="false">
+        <LiquidLoad Density="1.6" TestHeight="0" SettingPressure="0" ZTopOfAirPipe="0" />
+      </Loads>
+    </Compartment>
+    <Compartment Name="Cargo Tank 8P" MainDestination="CargoOilTank" ShortName="CT 8P" XG="26.57" YG="3.88" ZG="5.81" XStart="25.3" Length="2.1" Height="8.4" Breadth="8" ZTop="9.4" ZMin="1.2" LengthAtInnerBottom="2.1" IsIndependentTank="false" IsHeated="false" HasProtectiveCoating="false" IsPipeTunnel="false" HasContinuousWoodenCeiling="false" NonPristmaticShape="false">
+      <Loads LoadCategory="OilCargo" HasWaterBallastLoad="false" HasLiquidLoad="true" HasDryBulkLoads="false" HasAlternateLoads="false">
+        <LiquidLoad Density="1.6" TestHeight="0" SettingPressure="0" ZTopOfAirPipe="0" />
+      </Loads>
+    </Compartment>
+    <Compartment Name="Cargo Tank 8S" MainDestination="CargoOilTank" ShortName="CT 8S" XG="26.62" YG="-3.88" ZG="5.81" XStart="25.3" Length="2.1" Height="8.4" Breadth="8" ZTop="9.4" ZMin="1.2" LengthAtInnerBottom="2.1" IsIndependentTank="false" IsHeated="false" HasProtectiveCoating="false" IsPipeTunnel="false" HasContinuousWoodenCeiling="false" NonPristmaticShape="false">
+      <Loads LoadCategory="OilCargo" HasWaterBallastLoad="false" HasLiquidLoad="true" HasDryBulkLoads="false" HasAlternateLoads="false">
+        <LiquidLoad Density="1.6" TestHeight="0" SettingPressure="0" ZTopOfAirPipe="0" />
+      </Loads>
+    </Compartment>
+    <Compartment Name="Water Ballast Tank 3S" MainDestination="Ballast" ShortName="WB T 3S" XG="62.43" YG="-6.35" ZG="2.77" XStart="54" Length="16.79" Height="1.2" Breadth="9" ZTop="9.441" ZMin="0" IsIndependentTank="false" IsHeated="false" HasProtectiveCoating="false" IsPipeTunnel="false" HasContinuousWoodenCeiling="false" NonPristmaticShape="true">
+      <Loads LoadCategory="WaterBallast" HasWaterBallastLoad="true" HasLiquidLoad="false" HasDryBulkLoads="false" HasAlternateLoads="false">
+        <WaterBallastLoad Density="1.025" ZTopOfAirPipe="10.16" TestHeight="0" FillingMethod="Sequential" OverPressure="0" />
+        <LiquidLoad Density="1.6" TestHeight="0" SettingPressure="0" ZTopOfAirPipe="0" />
+      </Loads>
+      <Reference3DPoint R3D_X="54" R3D_Y="7" R3D_Z="1.2" />
+      <Reference3DPoint R3D_X="54" R3D_Y="0" R3D_Z="1.2" />
+      <Reference3DPoint R3D_X="70.8" R3D_Y="9" R3D_Z="9.4" />
+      <Reference3DPoint R3D_X="70.8" R3D_Y="8" R3D_Z="9.4" />
+    </Compartment>
+  </Compartments>
+  <CrossSections>
+    <CrossSection Name="Cross Section" Prfix="Fr87" CreDate="01/17/2022" State="LastCompliant" IsDefBsd="true" Bredth="18" DepDeck="9.4" DepTop="9.4" FrXRefNum="87" FrStartNum="87" FrEndNum="87" FrXRf="58.8999996781349" FrStart="58.9" FrEnd="58.9" FrXReOf="-3.21865101682306E-07" FrStartOf="0" FrEndOf="0" AlFrNum="0" CrossSectionType="HalfCrossSection" RaisedQuarterDeck="false" DeckExtHeight="0" BaseLineExtHeight="0" IsDefaultNeutralZoneMaterial="true" IsDefaultDeckZoneMaterial="true" IsDefaulTopZoneMaterial="true" IsDefaultBottomZoneMaterial="true" DamStabAv="false" DeepEqWL="0" WidthOfPlateau="0" DeepestEquilibriumWaterlineAtSide="0">
+      <Panels>
+        <Panel Name="Bottom Plate" UseId="" Beff="100" SecS="0" AppSEFF="false" SuppAftX="58.2" SuppForeX="61.7">
+          <Node Number="1" Y="0" Z="0" Knuckle="false" CurT="Line" Pcode="Bottom" IsWatertight="true" />
+          <Node Number="2" Y="7" Z="0" Knuckle="false" CurT="Line" Pcode="Bottom" IsWatertight="true" />
+          <Node Number="3" Y="7.38" Z="0.036" Knuckle="false" CurT="Line" Pcode="Bilge" IsWatertight="true" />
+          <Node Number="4" Y="7.626" Z="0.1" Knuckle="false" CurT="Line" Pcode="Bilge" IsWatertight="true" />
+          <Node Number="5" Y="7.805" Z="0.169" Knuckle="false" CurT="Line" Pcode="Bilge" IsWatertight="true" />
+          <Node Number="6" Y="8.032" Z="0.286" Knuckle="false" CurT="Line" Pcode="Bilge" IsWatertight="true" />
+          <Node Number="7" Y="8.24" Z="0.431" Knuckle="false" CurT="Line" Pcode="Bilge" IsWatertight="true" />
+          <Node Number="8" Y="8.454" Z="0.627" Knuckle="false" CurT="Line" Pcode="Bilge" IsWatertight="true" />
+          <Node Number="9" Y="8.616" Z="0.821" Knuckle="false" CurT="Line" Pcode="Bilge" IsWatertight="true" />
+          <Node Number="10" Y="8.752" Z="1.035" Knuckle="false" CurT="Line" Pcode="Bilge" IsWatertight="true" />
+          <Node Number="11" Y="8.861" Z="1.266" Knuckle="false" CurT="Line" Pcode="Bilge" IsWatertight="true" />
+          <Node Number="12" Y="8.94" Z="1.512" Knuckle="false" CurT="Line" Pcode="Bilge" IsWatertight="true" />
+          <Node Number="13" Y="8.983" Z="1.742" Knuckle="false" CurT="Line" Pcode="Bilge" IsWatertight="true" />
+          <Node Number="14" Y="8.996" Z="1.87" Knuckle="false" CurT="Line" Pcode="Bilge" IsWatertight="true" />
+          <Node Number="15" Y="8.999" Z="2.35" Knuckle="false" CurT="Line" Pcode="Bilge" IsWatertight="true" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="0.7" DistanceType="Y_Distance" Thickness="11" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="2.53" DistanceType="Y_Distance" Thickness="11" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.99" DistanceType="Y_Distance" Thickness="11" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.93" DistanceType="Y_Distance" Thickness="11" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.632" DistanceType="S_Distance" Thickness="11" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.707" DistanceType="S_Distance" Thickness="11" />
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="39" Start="0.273000012966804" Spacing="0.450000021373853" DistanceType="S_Distance" Direction="Orthogonal" Side="Left" FlangeDirection="Forth" Quantity="1">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <LongitudinalStiffenersGroup Start="0.475000022561289" Spacing="0.475000022561289" DistanceType="S_Distance" Direction="Orthogonal" Side="Left" FlangeDirection="Back" Quantity="3">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="23" Start="0.261000012396835" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Left" FlangeDirection="Back" Quantity="4">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="25" Start="0.261000012396835" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Left" FlangeDirection="Back" Quantity="4">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="2" Start="0.400000018998981" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Left" FlangeDirection="Back" Quantity="2">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <LongitudinalStiffenersGroup Start="1.00000004749745" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Left" FlangeDirection="Back" Quantity="3">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="2" Start="1.44000006839633" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Right" FlangeDirection="Back" Quantity="1">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+        </Panel>
+        <Panel Name="Side Shell" UseId="" Beff="100" SecS="0" AppSEFF="false" SuppAftX="58.2" SuppForeX="61.7">
+          <Node Number="15" Y="8.999" Z="2.35" Knuckle="false" CurT="Line" Pcode="SideShell" IsWatertight="true" ConnTy="NodeNode" Const="None" IPanel="0" ISeg="13" />
+          <Node Number="16" Y="8.999" Z="9.4" Knuckle="false" CurT="Line" Pcode="SideShell" IsWatertight="true" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.451" DistanceType="Z_Distance" Thickness="13" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="2.615" DistanceType="Z_Distance" Thickness="13" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="2.984" DistanceType="S_Distance" Thickness="13" />
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="15" Start="0.257000012206845" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Left" FlangeDirection="Back" Quantity="4">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="28" Start="0.257000012206845" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Left" FlangeDirection="Back" Quantity="4">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="37" Start="0.235000011161901" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Left" FlangeDirection="Back" Quantity="4">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+        </Panel>
+        <Panel Name="Main Deck" UseId="" Beff="100" SecS="0" AppSEFF="false" SuppAftX="58.2" SuppForeX="61.7">
+          <Node Number="16" Y="8.999" Z="9.4" Knuckle="false" CurT="Line" Pcode="WeatherStrengthDeck" IsWatertight="true" ConnTy="NodeNode" Const="None" IPanel="1" ISeg="0" />
+          <Node Number="17" Y="2.86" Z="9.65" Knuckle="false" CurT="Line" Pcode="WeatherStrengthDeck" IsWatertight="true" />
+          <Node Number="18" Y="0" Z="9.65" Knuckle="false" CurT="Line" Pcode="WeatherStrengthDeck" IsWatertight="true" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.137" DistanceType="Y_Distance" Thickness="11" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="2.423" DistanceType="Y_Distance" Thickness="10" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.14" DistanceType="Y_Distance" Thickness="10" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="2.86" DistanceType="Y_Distance" Thickness="10" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.439" DistanceType="S_Distance" Thickness="14" />
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="16" Start="1.47500007005874" Spacing="0.600000028498471" DistanceType="Y_Distance" Direction="Orthogonal" Side="Right" FlangeDirection="Forth" Quantity="11">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="16" Start="0.493000023416243" Spacing="0.600000028498471" DistanceType="Y_Distance" Direction="Orthogonal" Side="Left" FlangeDirection="Forth" Quantity="1">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="180" WebThickness="8" FlangeHeight="25" FlangeThickness="0" StiffProfileId="f7e4d55e-bb6e-4955-95e8-702631f6cdd1" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="16" Start="0.300000014249235" Spacing="0.600000028498471" DistanceType="Y_Distance" Direction="Orthogonal" Side="Right" FlangeDirection="Forth" Quantity="1">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="180" WebThickness="8" FlangeHeight="25" FlangeThickness="0" StiffProfileId="f7e4d55e-bb6e-4955-95e8-702631f6cdd1" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="17" Start="2.01000009546988" Spacing="0.600000028498471" DistanceType="Y_Distance" Direction="Orthogonal" Side="Right" FlangeDirection="Back" Quantity="1">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <DeckLoadZone StLimType="Node" StNum="16" EdLimType="Node" EdNum="18" DTYPE="NR646TechnicalSpaces" DLoad="5" DLoad_cogX="0" DLoad_cogY="0" DLoad_cogZ="0" />
+        </Panel>
+        <Panel Name="Inner bottom" UseId="" Beff="100" SecS="0" AppSEFF="false" SuppAftX="58.2" SuppForeX="61.7">
+          <Node Number="19" Y="0" Z="1.2" Knuckle="false" CurT="Line" Pcode="InnerBottom" IsWatertight="true" />
+          <Node Number="20" Y="7" Z="1.2" Knuckle="false" CurT="Line" Pcode="InnerBottom" IsWatertight="true" />
+          <Node Number="21" Y="7.999" Z="2.35" Knuckle="false" CurT="Line" Pcode="HopperSlopeBulkhead" IsWatertight="true" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.69" DistanceType="Y_Distance" Thickness="15" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="2.58" DistanceType="Y_Distance" Thickness="12" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="2.431" DistanceType="Y_Distance" Thickness="12" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.822" DistanceType="S_Distance" Thickness="12" />
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="40" Start="0.273000012966804" Spacing="0.500000023748726" DistanceType="S_Distance" Direction="Orthogonal" Side="Right" FlangeDirection="Forth" Quantity="1">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <LongitudinalStiffenersGroup Start="0.475000022561289" Spacing="0.475000022561289" DistanceType="S_Distance" Direction="Orthogonal" Side="Right" FlangeDirection="Back" Quantity="3">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="24" Start="0.261000012396835" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Right" FlangeDirection="Back" Quantity="4">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="26" Start="0.261000012396835" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Right" FlangeDirection="Back" Quantity="4">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="20" Start="0.450000021373853" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Right" FlangeDirection="Back" Quantity="2">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="320" WebThickness="12" FlangeHeight="46" FlangeThickness="0" StiffProfileId="2410ea6e-ea1d-4bf7-8bf4-6a7c607cadc6" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+        </Panel>
+        <Panel Name="Inner hull" UseId="" Beff="100" SecS="0" AppSEFF="false" SuppAftX="58.2" SuppForeX="61.7">
+          <Node Number="21" Y="7.999" Z="2.35" Knuckle="false" CurT="Line" Pcode="InnerHull" IsWatertight="true" ConnTy="NodeNode" Const="None" IPanel="3" ISeg="1" />
+          <Node Number="22" Y="7.999" Z="9.441" Knuckle="false" CurT="Line" Pcode="InnerHull" IsWatertight="true" ConnTy="NodeSegment" Const="Yimposed" IPanel="2" ISeg="0" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.773" DistanceType="Z_Distance" Thickness="12" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.773" DistanceType="Z_Distance" Thickness="12" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.773" DistanceType="Z_Distance" Thickness="12" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.772" DistanceType="S_Distance" Thickness="12" />
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="21" Start="0.257000012206845" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Right" FlangeDirection="Back" Quantity="4">
+            <LongitudinalStiffener IsDefaultMaterial="false" MaterialIndex="1" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="false" MaterialIndex="1" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="false" MaterialIndex="1" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="false" MaterialIndex="1" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="29" Start="0.257000012206845" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Right" FlangeDirection="Back" Quantity="4">
+            <LongitudinalStiffener IsDefaultMaterial="false" MaterialIndex="1" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="false" MaterialIndex="1" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="false" MaterialIndex="1" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="false" MaterialIndex="1" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="38" Start="0.235000011161901" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Right" FlangeDirection="Back" Quantity="4">
+            <LongitudinalStiffener IsDefaultMaterial="false" MaterialIndex="1" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="false" MaterialIndex="1" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="false" MaterialIndex="1" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="false" MaterialIndex="1" ScantlingType="Bulb" WebHeight="300" WebThickness="11" FlangeHeight="43" FlangeThickness="0" StiffProfileId="adb1f438-4b8d-43f8-8a16-93d583d0eb43" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+        </Panel>
+        <Panel Name="String 1" UseId="" Beff="100" SecS="0" AppSEFF="false" SuppAftX="58.2" SuppForeX="61.7">
+          <Node Number="23" Y="2.33" Z="0" Knuckle="false" CurT="Line" Pcode="DoubleHullGirder" IsWatertight="true" />
+          <Node Number="24" Y="2.33" Z="1.2" Knuckle="false" CurT="Line" Pcode="DoubleHullGirder" IsWatertight="true" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.2" DistanceType="S_Distance" Thickness="11" HoleLocation="0.35" HoleBreadth="0.5" />
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="23" Start="0.300000014249235" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Right" FlangeDirection="Back" Quantity="2">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="180" WebThickness="8" FlangeHeight="25" FlangeThickness="0" StiffProfileId="f7e4d55e-bb6e-4955-95e8-702631f6cdd1" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="180" WebThickness="8" FlangeHeight="25" FlangeThickness="0" StiffProfileId="f7e4d55e-bb6e-4955-95e8-702631f6cdd1" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+        </Panel>
+        <Panel Name="String 2" UseId="" Beff="100" SecS="0" AppSEFF="false" SuppAftX="58.2" SuppForeX="61.7">
+          <Node Number="25" Y="4.66" Z="0" Knuckle="false" CurT="Line" Pcode="DoubleHullGirder" IsWatertight="true" />
+          <Node Number="26" Y="4.66" Z="1.2" Knuckle="false" CurT="Line" Pcode="DoubleHullGirder" IsWatertight="true" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.2" DistanceType="S_Distance" Thickness="11" HoleLocation="0.35" HoleBreadth="0.5" />
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="25" Start="0.300000014249235" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Right" FlangeDirection="Back" Quantity="2">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="180" WebThickness="8" FlangeHeight="25" FlangeThickness="0" StiffProfileId="f7e4d55e-bb6e-4955-95e8-702631f6cdd1" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="180" WebThickness="8" FlangeHeight="25" FlangeThickness="0" StiffProfileId="f7e4d55e-bb6e-4955-95e8-702631f6cdd1" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+        </Panel>
+        <Panel Name="String 3" UseId="" Beff="100" SecS="0" AppSEFF="false" SuppAftX="58.2" SuppForeX="61.7">
+          <Node Number="27" Y="7" Z="0" Knuckle="false" CurT="Line" Pcode="DoubleHullGirder" IsWatertight="true" ConnTy="NodeSegment" Const="Yimposed" IPanel="0" ISeg="0" />
+          <Node Number="20" Y="7" Z="1.2" Knuckle="false" CurT="Line" Pcode="DoubleHullGirder" IsWatertight="true" ConnTy="NodeNode" Const="None" IPanel="3" ISeg="0" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.2" DistanceType="S_Distance" Thickness="11" HoleLocation="0.35" HoleBreadth="0.5" />
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="27" Start="0.300000014249235" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Left" FlangeDirection="Back" Quantity="2">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="180" WebThickness="8" FlangeHeight="25" FlangeThickness="0" StiffProfileId="f7e4d55e-bb6e-4955-95e8-702631f6cdd1" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="180" WebThickness="8" FlangeHeight="25" FlangeThickness="0" StiffProfileId="f7e4d55e-bb6e-4955-95e8-702631f6cdd1" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+        </Panel>
+        <Panel Name="String 4" UseId="" Beff="100" SecS="0" AppSEFF="false" SuppAftX="58.2" SuppForeX="61.7">
+          <Node Number="15" Y="8.999" Z="2.35" Knuckle="false" CurT="Line" Pcode="DoubleHullGirder" IsWatertight="true" ConnTy="NodeNode" Const="None" IPanel="0" ISeg="13" />
+          <Node Number="21" Y="7.999" Z="2.35" Knuckle="false" CurT="Line" Pcode="DoubleHullGirder" IsWatertight="true" ConnTy="NodeNode" Const="None" IPanel="3" ISeg="1" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1" DistanceType="S_Distance" Thickness="11" HoleLocation="0.25" HoleBreadth="0.5" />
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="15" Start="0.186000008834526" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Left" FlangeDirection="Forth" Quantity="2">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="180" WebThickness="8" FlangeHeight="25" FlangeThickness="0" StiffProfileId="f7e4d55e-bb6e-4955-95e8-702631f6cdd1" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="180" WebThickness="8" FlangeHeight="25" FlangeThickness="0" StiffProfileId="f7e4d55e-bb6e-4955-95e8-702631f6cdd1" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+        </Panel>
+        <Panel Name="String 5" UseId="" Beff="100" SecS="0" AppSEFF="false" SuppAftX="58.2" SuppForeX="61.7">
+          <Node Number="28" Y="8.999" Z="4.75" Knuckle="false" CurT="Line" Pcode="DoubleHullGirder" IsWatertight="true" ConnTy="NodeSegment" Const="Zimposed" IPanel="1" ISeg="0" />
+          <Node Number="29" Y="7.999" Z="4.75" Knuckle="false" CurT="Line" Pcode="DoubleHullGirder" IsWatertight="true" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1" DistanceType="S_Distance" Thickness="11" HoleLocation="0.25" HoleBreadth="0.5" />
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="28" Start="0.186000008834526" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Left" FlangeDirection="Forth" Quantity="2">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="180" WebThickness="8" FlangeHeight="25" FlangeThickness="0" StiffProfileId="f7e4d55e-bb6e-4955-95e8-702631f6cdd1" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="180" WebThickness="8" FlangeHeight="25" FlangeThickness="0" StiffProfileId="f7e4d55e-bb6e-4955-95e8-702631f6cdd1" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+        </Panel>
+        <Panel Name="Bulkhead" UseId="" Beff="100" SecS="0" AppSEFF="false" SuppAftX="58.2" SuppForeX="61.7">
+          <Node Number="1" Y="0" Z="0" Knuckle="false" CurT="Line" Pcode="WaterTightBulkhead" IsWatertight="true" ConnTy="NodeNode" Const="None" IPanel="0" ISeg="0" />
+          <Node Number="19" Y="0" Z="1.2" Knuckle="false" CurT="Line" Pcode="WaterTightBulkhead" IsWatertight="true" ConnTy="NodeNode" Const="None" IPanel="3" ISeg="0" />
+          <Node Number="30" Y="0" Z="2.256" Knuckle="false" CurT="Line" Pcode="WaterTightBulkhead" IsWatertight="true" />
+          <Node Number="31" Y="0" Z="3.312" Knuckle="false" CurT="Line" Pcode="WaterTightBulkhead" IsWatertight="true" />
+          <Node Number="32" Y="0" Z="4.369" Knuckle="false" CurT="Line" Pcode="WaterTightBulkhead" IsWatertight="true" />
+          <Node Number="33" Y="0" Z="5.425" Knuckle="false" CurT="Line" Pcode="WaterTightBulkhead" IsWatertight="true" />
+          <Node Number="34" Y="0" Z="6.481" Knuckle="false" CurT="Line" Pcode="WaterTightBulkhead" IsWatertight="true" />
+          <Node Number="35" Y="0" Z="7.538" Knuckle="false" CurT="Line" Pcode="WaterTightBulkhead" IsWatertight="true" />
+          <Node Number="36" Y="0" Z="8.594" Knuckle="false" CurT="Line" Pcode="WaterTightBulkhead" IsWatertight="true" />
+          <Node Number="18" Y="0" Z="9.65" Knuckle="false" CurT="Line" Pcode="WaterTightBulkhead" IsWatertight="true" ConnTy="NodeNode" Const="None" IPanel="2" ISeg="1" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="false" MaterialIndex="1" Straketype="Normal" DistanceOffset="3.016" DistanceType="Z_Distance" Thickness="22" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="false" MaterialIndex="1" Straketype="Normal" DistanceOffset="3.016" DistanceType="Z_Distance" Thickness="20" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="false" MaterialIndex="1" Straketype="Normal" DistanceOffset="1.81" DistanceType="Z_Distance" Thickness="16" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="false" MaterialIndex="1" Straketype="Normal" DistanceOffset="1.808" DistanceType="S_Distance" Thickness="14" />
+          <Spanzone StLimType="Node" StNum="19" EdLimType="Node" EdNum="30" AreaType="Transverse" SuppAftX="58.2" SuppForeX="61.7" AntiBucklingSpacing="0" SupPlat="true" SupStif="false" HasStiffTrans="true" CalculationLocation="None">
+            <TransverseStiffener WebHeight="400" WebThickness="15" FlangeHeight="63" FlangeThickness="0" IsDefaultMaterial="true" MaterialIndex="1" ScantlingType="Bulb" StiffProfileId="a6e66827-916f-4781-9d16-5d5974234045" StiffSide="Right" />
+          </Spanzone>
+          <Spanzone StLimType="Node" StNum="30" EdLimType="Node" EdNum="31" AreaType="Transverse" SuppAftX="58.2" SuppForeX="61.7" AntiBucklingSpacing="0" SupPlat="true" SupStif="false" HasStiffTrans="true" CalculationLocation="None">
+            <TransverseStiffener WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" IsDefaultMaterial="true" MaterialIndex="1" ScantlingType="Bulb" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" StiffSide="Right" />
+          </Spanzone>
+          <Spanzone StLimType="Node" StNum="31" EdLimType="Node" EdNum="32" AreaType="Transverse" SuppAftX="58.2" SuppForeX="61.7" AntiBucklingSpacing="0" SupPlat="true" SupStif="false" HasStiffTrans="true" CalculationLocation="None">
+            <TransverseStiffener WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" IsDefaultMaterial="true" MaterialIndex="1" ScantlingType="Bulb" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" StiffSide="Right" />
+          </Spanzone>
+          <Spanzone StLimType="Node" StNum="32" EdLimType="Node" EdNum="33" AreaType="Transverse" SuppAftX="58.2" SuppForeX="61.7" AntiBucklingSpacing="0" SupPlat="true" SupStif="false" HasStiffTrans="true" CalculationLocation="None">
+            <TransverseStiffener WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" IsDefaultMaterial="true" MaterialIndex="1" ScantlingType="Bulb" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" StiffSide="Right" />
+          </Spanzone>
+          <Spanzone StLimType="Node" StNum="33" EdLimType="Node" EdNum="34" AreaType="Transverse" SuppAftX="58.2" SuppForeX="61.7" AntiBucklingSpacing="0" SupPlat="true" SupStif="false" HasStiffTrans="true" CalculationLocation="None">
+            <TransverseStiffener WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" IsDefaultMaterial="true" MaterialIndex="1" ScantlingType="Bulb" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" StiffSide="Right" />
+          </Spanzone>
+          <Spanzone StLimType="Node" StNum="34" EdLimType="Node" EdNum="35" AreaType="Transverse" SuppAftX="58.2" SuppForeX="61.7" AntiBucklingSpacing="0" SupPlat="true" SupStif="false" HasStiffTrans="true" CalculationLocation="None">
+            <TransverseStiffener WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" IsDefaultMaterial="true" MaterialIndex="1" ScantlingType="Bulb" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" StiffSide="Right" />
+          </Spanzone>
+          <Spanzone StLimType="Node" StNum="35" EdLimType="Node" EdNum="36" AreaType="Transverse" SuppAftX="58.2" SuppForeX="61.7" AntiBucklingSpacing="0" SupPlat="true" SupStif="false" HasStiffTrans="true" CalculationLocation="None">
+            <TransverseStiffener WebHeight="260" WebThickness="10" FlangeHeight="37" FlangeThickness="0" IsDefaultMaterial="true" MaterialIndex="1" ScantlingType="Bulb" StiffProfileId="24a4bae1-9e9d-45a5-a4aa-515f4b678eda" StiffSide="Right" />
+          </Spanzone>
+          <Spanzone StLimType="Node" StNum="36" EdLimType="Node" EdNum="18" AreaType="Transverse" SuppAftX="58.2" SuppForeX="61.7" AntiBucklingSpacing="0" SupPlat="true" SupStif="false" HasStiffTrans="true" CalculationLocation="None">
+            <TransverseStiffener WebHeight="400" WebThickness="15" FlangeHeight="63" FlangeThickness="0" IsDefaultMaterial="true" MaterialIndex="1" ScantlingType="Bulb" StiffProfileId="a6e66827-916f-4781-9d16-5d5974234045" StiffSide="Right" />
+          </Spanzone>
+        </Panel>
+        <Panel Name="String 6" UseId="" Beff="100" SecS="0" AppSEFF="false" SuppAftX="58.2" SuppForeX="61.7">
+          <Node Number="37" Y="8.999" Z="7.15" Knuckle="false" CurT="Line" Pcode="DoubleHullGirder" IsWatertight="true" />
+          <Node Number="38" Y="7.999" Z="7.15" Knuckle="false" CurT="Line" Pcode="DoubleHullGirder" IsWatertight="true" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1" DistanceType="S_Distance" Thickness="11" HoleLocation="0.25" HoleBreadth="0.5" />
+          <LongitudinalStiffenersGroup ReferenceNodeNumber="37" Start="0.186000008834526" Spacing="0.600000028498471" DistanceType="S_Distance" Direction="Orthogonal" Side="Left" FlangeDirection="Forth" Quantity="2">
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="180" WebThickness="8" FlangeHeight="25" FlangeThickness="0" StiffProfileId="f7e4d55e-bb6e-4955-95e8-702631f6cdd1" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+            <LongitudinalStiffener IsDefaultMaterial="true" ScantlingType="Bulb" WebHeight="180" WebThickness="8" FlangeHeight="25" FlangeThickness="0" StiffProfileId="f7e4d55e-bb6e-4955-95e8-702631f6cdd1" PrefixUserId="" UserIdNumber="0" IsPanelBendingEfficiency="true" SpecialBendingEfficiency="0" LEffbendingspan_User="0" LEffshearspan_User="0" IsUserValueUsed="false" IsRegular="true" SingleSkin="true" ShouldCheckFatigue="false">
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <EndConnectionStiff EndConnectionType="NoSupport" />
+              <FatigueDetail ConNum="1" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+              <FatigueDetail ConNum="2" AftToeType="None" AftToeLength="0" AftHeelType="None" AftIsXeUser="false" AftXeUser="0" ForeToeType="None" ForeToeLength="0" ForeHeelType="None" ForeIsXeUser="false" ForeXeUser="0" IsWaterthight="true" HasPostWeld="false" IsDefaultToeAngle="true" ToeAngle="45" IsClearanceLessThan8mm="false" />
+            </LongitudinalStiffener>
+          </LongitudinalStiffenersGroup>
+        </Panel>
+        <Panel Name="Central tunnel" UseId="" Beff="100" SecS="0" AppSEFF="false" SuppAftX="58.2" SuppForeX="61.7">
+          <Node Number="39" Y="0.4" Z="0" Knuckle="false" CurT="Line" Pcode="DoubleHullGirder" IsWatertight="true" />
+          <Node Number="40" Y="0.4" Z="1.2" Knuckle="false" CurT="Line" Pcode="DoubleHullGirder" IsWatertight="true" />
+          <Strake StrakeUserId="" MaterialName="ST235" IsDefaultMaterial="true" Straketype="Normal" DistanceOffset="1.2" DistanceType="S_Distance" Thickness="14" HoleLocation="0.35" HoleBreadth="0.5" />
+        </Panel>
+      </Panels>
+      <Contours>
+        <Contour Name="C1" Nodes="19 24 26 20 21 29 38 22 17 18 36 35 34 33 32 31 30 19" AssociatedCompartmentIndex="9" IsContourReference="true" />
+        <Contour Name="C2" Nodes="1 23 25 27 2 3 4 5 6 7 8 9 10 11 12 13 14 15 28 37 16 22 38 29 21 20 26 24 19 1" AssociatedCompartmentIndex="16" IsContourReference="true" />
+      </Contours>
+      <Comments />
+    </CrossSection>
+  </CrossSections>
+  <TorsionModels />
+  <CrossSectionTree>
+    <CrossSectionLeafTreeItem Name="Cross Section" Index="0" />
+  </CrossSectionTree>
+  <BhaTree />
+  <BulkheadArrangements />
+</Ship>
